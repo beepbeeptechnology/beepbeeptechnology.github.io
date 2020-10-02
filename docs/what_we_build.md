@@ -7,8 +7,10 @@
 ### Third Party Services
 #### Stitch
 #### Rivery
+#### Skyvia
 #### Supermetrics
 #### FiveTran
+#### Segment
 #### Others
 
 ### External Files

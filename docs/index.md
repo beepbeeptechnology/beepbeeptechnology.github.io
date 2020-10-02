@@ -1,4 +1,5 @@
 # Overview
+We help people automate everything related to data.
 
 ## Philosophy
 Whether you think that data is the new oil, soil, water, blood or  just a load of ones and zeroes, there's no getting away from the fact that there's rather a lot of it about these days, and it's growing exponentially in breadth and volume.
@@ -10,7 +11,7 @@ You don't want to have to learn these tools and approaches in order to get the d
 That's where we come in.
 
 ## Approach
-We understand that most people want this complexity to be abstracted away.  You just want to be able to get the data you want into the tools and places they need it, and you need to be sure that it is:
+We understand that most people want this complexity to be abstracted away.  You just want to be able to get the data you want into the tools and places you need it, and you need to be sure that it is:
 
 * timely
 * reliable
