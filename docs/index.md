@@ -17,7 +17,7 @@ We understand that most people want this complexity to be abstracted away.  You 
 * accurate
 * well structured
 
-Additionally, we provide native tools to aggregate, integrate and augment your data with statistical analyses, computation and data from external APIs.  We can make them available to you, or we can use them on your behalf to help you make the data work for you.
+Additionally, we provide native tools to aggregate, integrate and augment your data with statistical analyses, computation and data from external APIs.  We can provide training and make them available to you, or we can use them on your behalf to help you make your data work for you.
  
 The opportunities are virtually limitless.
     
