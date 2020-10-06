@@ -4,14 +4,14 @@ theme:
   name: material
 
 nav:
-  - Overview: '1_index.md'
-  - What We Build: '2_what_we_build.md'
+  - Overview: 'index.md'
+  - What We Build: 'what_we_build.md'
   - 'How We Build It':
-    - Inbound Automation: '2a_inbound.md'
-    - Transformation: '2b_transformation.md'
-    - Augmentation: '2c_augmentations.md'
-    - Outbound Automation: '2d_outbound.md'
-  - How We Work: '3_how_we_work.md'
+    - Inbound Automation: 'inbound.md'
+    - Transformation: 'transformation.md'
+    - Augmentation: 'augmentation.md'
+    - Outbound Automation: 'outbound.md'
+  - How We Work: 'how_we_work.md'
 
 markdown_extensions:
   - pymdownx.tabbed

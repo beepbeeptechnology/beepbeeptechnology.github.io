@@ -36,6 +36,10 @@ The first step is determining where your data is and how you are going to get it
             
         === "Skyvia"
             [Skyvia](https://skyvia.com/) is a service we have used with success as it offers some interesting integrations and customisation functionality.
+ 
+        === "Data.World"
+            [Data.World](https://data.world/) is a little different as it is technically a data catalog, but it has some interesting capabilities regarding inbound data automation, chart building and.  
+    
     
     === "Customer Analytics"
         There is also a set of services worth mentioning, which give you the capability to track user behaviours across your website(s) and/or app(s).  They require some technical knowledge to set up and manage, which is beyond the scope of our services.  However we are experienced at working with the data which they generate and push directly to BigQuery.
