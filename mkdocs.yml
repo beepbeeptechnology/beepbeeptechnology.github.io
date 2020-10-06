@@ -1,11 +1,29 @@
-site_name: Beep Beep Technology
+site_name: beep beep technology
 
 theme:
   name: material
 
 nav:
-  - 'index.md'
-  - 'what_we_do.md'
-  - 'what_we_use.md'
-  - 'what_we_build.md'
-  - 'how_we_work.md'
+  - Overview: '1_index.md'
+  - What We Build: '2_what_we_build.md'
+  - 'How We Build It':
+    - Inbound Automation: '2a_inbound.md'
+    - Transformation: '2b_transformation.md'
+    - Augmentation: '2c_augmentations.md'
+    - Outbound Automation: '2d_outbound.md'
+  - How We Work: '3_how_we_work.md'
+
+markdown_extensions:
+  - pymdownx.tabbed
+  - pymdownx.superfences
+
+#repo_url: https://github.com/datafunctions/datafunctions.github.io
+
+google_analytics:
+  - UA-119865580-5
+  - auto
+
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:info@beepbeep.technology
