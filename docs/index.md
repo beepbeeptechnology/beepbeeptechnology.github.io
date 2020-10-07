@@ -10,9 +10,7 @@ Whether you need data to make decisions, assess opportunities, evaluate policy o
 
 But the tools and techniques required to ensure that data is available, reliable and easy to use are increasingly complex, with steep learning curves and ongoing maintenance activities.
 
-You don't want to have to learn these tools and approaches in order to get the data you want exactly where you need it, consistently.
-
-That's where we come in.
+If you just want your data exactly where you need it, consistently, but don't want to have to learn these tools and approaches - that's where we come in.
 
 ## Our Approach
 We take a modular, sequential approach to all aspects of data management, which makes it easier to design, build, deploy, monitor, maintain, quality assure and problem solve.
@@ -26,4 +24,4 @@ We understand that most people want complexity to be abstracted away.  You just 
 
 Additionally, we build and maintain native tools to source, cleanse, aggregate, integrate and augment your data with statistical analyses, computation and data from external APIs.
  
-We can also provide tools and/or services to monitor your pipelines, alert to and fix any issues which arise.      
+We also have tools and services to monitor your pipelines, alert to any issues via multiple channels and resources to fix any issues which arise.      
