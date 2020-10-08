@@ -4,10 +4,10 @@ We build and monitor serverless, automated data pipelines, enabling you to rely 
 ## Data Pipeline Overview
 Data pipelines comprise the following sequential actions which require coordination, execution and monitoring:
 
-1. Inbound Data Automation
-1. Data Transformation
+1. [Inbound Data Automation](https://beepbeeptechnology.github.io/inbound/)
+1. [Data Transformation](https://beepbeeptechnology.github.io/transformation/)
 1. Data Augmentation
-1. Outbound Data Automation
+1. [Outbound Data Automation](https://beepbeeptechnology.github.io/outbound/)
 
 ## Google BigQuery
 
