@@ -11,16 +11,16 @@ It is also often extremely valuable to understand more nuanced characteristics o
 We think about data transformations in terms of the following categories, with a range of different objectives and corresponding approaches.
 
 === "Cleanse"
-    Data cleanse activities automate the 'correction' of data, whether that is filtering out duplicate rows, cleaning unwanted characters from strings which can cause downstream errors.  Cleanse activities can use native functionality and/or some more custom functions.
+    Data cleanse activities automate the 'correction' of data, whether that is filtering out duplicate rows, cleaning unwanted characters from strings which can cause downstream errors.  Cleanse activities can use native functionality and/or some generic or case-specific custom functions.
     
 === "Convert"
     To leverage the full capabilities of BigQuery, it is important to ensure that data types are correct, which can be complex depending on the precise format the data is received in.  Date and time formats can pose particular challenges, as well as differing national standards.
     
 === "Filter"
-    Common transformation actions are to filter down unwanted or unused columns from the data - improving downstream performance - or to filter down the dataset based on a column values combination of column values, expose a subset of the data to downstream tools.
+    Common transformation actions are to filter down unwanted or unused columns from the data - improving downstream performance - or to filter down the dataset based on a set combination of column values, to expose a subset of the data to downstream tools.
 
 === "Aggregate"
-    [Aggregate functions](https://cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions) then perform some kind of aggregation on the date, grouping the date by a set of dimensions and executing a computation on the rows which correspond to the dimension set.  Example functions are `MIN`, `MAX`, `SUM` or `COUNT` and normally result in a different (lower) output row count.
+    [Aggregate functions](https://cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions) then perform some kind of aggregation on the date, grouping the date by a set of dimensions and executing a computation on the corresponding rows.  Example functions are `MIN`, `MAX`, `SUM` or `COUNT` and normally result in a different (lower) output row count.
 
 === "Compute"
     Computation functions are more complex and are often based on [Analytic Functions](https://cloud.google.com/bigquery/docs/reference/standard-sql/analytic-function-concepts), and can achieve complex computational outputs in a single step such as row occurrence counts, or encapsulated in datafunctions to quickly compute e.g. grouped moving averages.
@@ -40,7 +40,13 @@ If your data needs to be cleansed, transformed or integrated with other data, yo
 === "datafunctions"
     For more complex and/or repetitive transformation requirements it can be extremely painful and time-consuming to hand-write SQL.  In these instances, we leverage dynamic SQL in BigQuery.  This enables common SQL patterns to be abstracted into re-useable functions ([User Defined Functions](https://cloud.google.com/bigquery/docs/reference/standard-sql/user-defined-functions) and [Stored Procedures](https://cloud.google.com/bigquery/docs/reference/standard-sql/scripting)) which can be chained together to build complex, reuseable transformation patterns.
     
-    Underpinning this approach is a library of functions which we build and maintain called datafunctions ([datafunctions.github.io](https://datafunctions.github.io)), which are callable directly in BigQuery using the syntax `datafunctions.functiontype.function([ARGUMENTS])`.
+    Underpinning this approach is a library of functions which we build and maintain called datafunctions ([datafunctions.github.io](https://datafunctions.github.io)), which are callable directly in BigQuery using the syntax: 
+    ```
+    datafunctions.functiontype.function([ARGUMENTS])
+    ``` 
+    This means that you can build complex transformations without ever having to leave the BigQuery UI or learn a completely new platform.
+    
+    Transformations can be chained together and parameterised, so you can apply the same transformation pattern to a limitless number of datasources with minimal additional effort.
    
 === "Third Party Platforms"
     There are some excellent platforms which bring software engineering best practices to the data engineering workflow, and which might be applicable to your use case.  As external tools there will be some onboarding effort and a learning curve as well as ongoing maintenance effort and potential cost.  However these tools are worth consideration.

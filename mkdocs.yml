@@ -11,7 +11,6 @@ nav:
   - 'How We Build It':
     - Inbound Automation: 'inbound.md'
     - Transformation: 'transformation.md'
-#    - Augmentation: 'augmentation.md'
     - Outbound Automation: 'outbound.md'
   - How We Work: 'how_we_work.md'
 
@@ -21,8 +20,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-
-#repo_url: https://github.com/datafunctions/datafunctions.github.io
 
 google_analytics:
   - UA-119865580-5
