@@ -115,8 +115,8 @@ The first step is determining where your data is and how you are going to get it
         
         | Automation Effort | Level |
         | -- | -- |
-        | Initial Effort | :material-circle: :material-circle: :material-circle-outline: :material-circle-outline:|
-        | Ongoing Effort | :material-circle: :material-circle-half-full: :material-circle-outline: :material-circle-outline:|     
+        | Initial Effort | :material-circle: :material-circle: :material-circle-half-full: :material-circle-outline:|
+        | Ongoing Effort | :material-circle: :material-circle: :material-circle-outline: :material-circle-outline:|     
 
 === "External APIs"
     A more complex but flexible and powerful source of data is via external APIs (Application Programming Interfaces), to which we send requests to periodically extract data, which we then manage and push to the downstream data pipeline.  

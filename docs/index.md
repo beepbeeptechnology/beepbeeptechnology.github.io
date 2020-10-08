@@ -1,7 +1,7 @@
 # Overview
 We help people automate everything related to data.  
 
-We are for the people who don't want to learn new tools or platforms, who just want data that they can rely on. 
+We are for the people who don't necessarily want to continually learn new tools or platforms, who just want data that they can rely on. 
 
 We have deep and current expertise in many aspects of data engineering, analytics and science, so you don't have to.
 
@@ -10,12 +10,14 @@ Whether you need data to make decisions, assess opportunities, evaluate policy o
 
 But the tools and techniques required to ensure that data is available, reliable and easy to use are increasingly complex, with steep learning curves and ongoing maintenance activities.
 
-If you just want your data exactly where you need it, consistently, but don't want to have to learn these tools and approaches - that's where we come in.
+We believe that you just want your data exactly where you need it, consistently and reliably.
+
+That's where we come in.
 
 ## Our Approach
-We take a modular, sequential approach to all aspects of data management, which makes it easier to design, build, deploy, monitor, maintain, quality assure and problem solve.
+We take a modular, sequential approach to all aspects of data management, which makes it easier to design, build, deploy, monitor, maintain, quality assure and problem solve data pipelines.
 
-We understand that most people want complexity to be abstracted away.  You just want to be able to get the data you want into the tools and places you need it, and that it is:
+We understand that most people want complexity to be abstracted away.  You just want to be able to get the data you want into the tools and places you need it.  Your data needs to be:
 
 * timely
 * reliable

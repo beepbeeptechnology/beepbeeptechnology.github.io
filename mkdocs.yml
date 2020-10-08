@@ -3,8 +3,6 @@ site_name: beep beep technology
 theme:
   name: material
   logo: assets/images/beepbeep_logo_white.png
-  #icon:
-  #  logo: material/elephant
   favicon: assets/images/beepbeep_logo.png
 
 nav:

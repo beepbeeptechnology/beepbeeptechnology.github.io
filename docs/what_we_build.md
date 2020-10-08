@@ -1,12 +1,11 @@
 # What We Build
-We build and monitor serverless, automated data pipelines, enabling you to rely on your data being exactly where you need it, when you need it and transformed exactly how you need it.
+We build and monitor serverless, automated data pipelines on Google Cloud Platform, enabling you to rely on your data being exactly where you need it, when you need it and transformed exactly how you need it.
 
 ## Data Pipeline Overview
 Data pipelines comprise the following sequential actions which require coordination, execution and monitoring:
 
 1. [Inbound Data Automation](https://beepbeeptechnology.github.io/inbound/)
 1. [Data Transformation](https://beepbeeptechnology.github.io/transformation/)
-1. Data Augmentation
 1. [Outbound Data Automation](https://beepbeeptechnology.github.io/outbound/)
 
 ## Google BigQuery
@@ -19,7 +18,7 @@ We exclusively use Google BigQuery due to its scaleability, ease of setup and us
  
  It is, in a word, amazing.
 
-Using BigQuery as the foundation, we then design, build, connect, deploy and manage the following data pipeline components. 
+Using BigQuery as the foundation, we then design, build, connect, deploy and manage your data pipeline components. 
 
 
 
