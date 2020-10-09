@@ -52,7 +52,7 @@ Of course, setting up your inbound data automation and fine-tuning your transfor
     Cloud hosted spreadsheets have taken away complexity around version control, but they still represent a risky point of failure and introduce human error, as well as 'helpful' automatic actions like dropping zeroes from the front of telephone numbers or changing all of your perfect ISO compliant dates into integers.
     
     === "Google Sheets"
-        Google Sheets has very good integrations with BigQuery, which can be extremely helpful.  You can query data in a Google Sheet [directly from BigQuery](https://cloud.google.com/bigquery/external-data-drive), and changes are reflected immediately when queried.  You can also send data back the other way using [Connected Sheets](https://cloud.google.com/bigquery/docs/connected-sheets), and schedule extracts into your workbooks.  However see above regarding workflow, moving data through a spreadsheet can seem like a good idea until it breaks and you have no debugging framework, or any idea where to start trying to fix it.
+        Google Sheets has very good integrations with BigQuery, which can be extremely helpful.  You can query data in a Google Sheet [directly from BigQuery](https://cloud.google.com/bigquery/external-data-drive), and changes are reflected immediately when queried.  You can also send data back the other way using [Connected Sheets](https://cloud.google.com/bigquery/docs/connected-sheets), and schedule extracts into your workbooks.  This requires a GSuite for Business account.  However, regarding this workflow: moving data through a spreadsheet can seem like a good idea until it breaks and you have no debugging framework, or any idea where to start trying to fix it.
         
     === "Microsoft Excel"
         MIcrosoft Excel _can_ connect to BigQuery, but setup is not trivial.  You need to install the [Magnitude Simba ODBC driver for BigQuery](https://cloud.google.com/bigquery/providers/simba-drivers), which apparently works on Windows, Linux and MacOS.  We have been able to get the connector working on Windows, however if you do need this workflow, then it might be worth thinking about your end-to-end workflow and whether it's still fit-for-purpose given the technical tools and resources we now have at our disposal. 
@@ -61,12 +61,23 @@ Of course, setting up your inbound data automation and fine-tuning your transfor
         Ha ha only joking! One from the [history books](https://en.wikipedia.org/wiki/Lotus_1-2-3)...
 
 === "Cloud Storage"
-    === "Google Cloud Storage"
-    === "Amazon S3"
-    === "Azure Storage"
-    === "Google Drive"
-    === "Dropbox"
+    It is a fairly common data exchange pattern to be required to send data files to a cloud storage location for a partner/client/customer to process downstream.  We can set up the mechanism to automate this export to a range of common cloud destinations. 
 
+    === "Google Cloud Storage"
+        Google Cloud Storage buckets are used for inbound data and can also be used as a location to periodically export data depending on specific requirements.  
+        
+    === "Amazon S3"
+        Amazon S3 buckets can also be used as a location to periodically export data depending on specific requirements.  This would require additional Amazon authentication details. 
+         
+    === "Azure Storage"
+        Microsoft Azure Storage Locations can also be used as a location to periodically export data depending on requirements. This would require additional Microsoft authentication details. 
+                
+    === "Google Drive"
+        Files can also be periodically exported to a Google Drive location periodically, depending on the specific requirements.
+        
+    === "Dropbox"
+        Files can also be periodically exported to a Dropbox directory  periodically, depending on the specific requirements.
+        
 === "Programmatic Access"
     BigQuery has Google-developed and supported client libraries for all major languages, which make interacting with your dataset programmatically very straightforward.  Authentication processes vary, but consistently require you to create a service account, add the required permissions, download the key (JSON file) and then use the path to the key file in your code. 
 
@@ -96,3 +107,10 @@ Of course, setting up your inbound data automation and fine-tuning your transfor
 
 
 === "Attachments"
+    There are also use-cases where partners/clients/customers require data files to be sent periodically as attachments for downstream processing.  We can set up the mechanism to automate this via a variety of channels.
+    
+    === "Email"
+        Email is probably the most common use case, but does involve some setup complexity to ensure that the emails are correctly authorised and not identified as spam.
+        
+    === "Slack"
+        Slack is a more straightforward process to set up, requiring some basic authentication details for attachments to be periodically attached to messages in a specific channel.
