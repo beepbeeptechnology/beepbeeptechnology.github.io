@@ -15,7 +15,7 @@ We believe that you just want your data exactly where you need it, consistently 
 That's where we come in.
 
 ## Our Approach
-We take a modular, sequential approach to all aspects of data management, which makes it easier to design, build, deploy, monitor, maintain, quality assure and problem solve data pipelines.
+We take a modular, sequential approach to all aspects of data management, which makes it easier to design, build, deploy, monitor, maintain, quality assure and troubleshoot data pipelines.
 
 We understand that most people want complexity to be abstracted away.  You just want to be able to get the data you want into the tools and places you need it.  Your data needs to be:
 
