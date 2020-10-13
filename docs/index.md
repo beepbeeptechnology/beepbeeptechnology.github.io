@@ -3,7 +3,7 @@ We help people automate everything related to data.
 
 We are for the people who don't necessarily want to continually learn new tools or platforms, who just want data that they can rely on. 
 
-We have deep and current expertise in data engineering, analytics engineering, data science and cloud architecture so you don't have to.
+We have deep and current expertise in data engineering, analytics engineering, data science and cloud architecture so you don't (necessarily) have to.
 
 ## Our Philosophy
 Whether you need data to make decisions, assess opportunities, evaluate policy outcomes, validate experimental results, train machine learning models or assess return on investment, the underlying approaches to data and analytics engineering are the same.  

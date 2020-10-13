@@ -52,16 +52,31 @@ The type of model selected will impact the up-front and ongoing costs.
 Project structure will be tailored to your specific needs, however it will typically involve some or all of the following phases.
 
 === "Design"
-    Following on from your initial brief and our subsequent scoping, we will draw up a high-level end-to-end design, comprising all of the data sources, destinations, components, refresh requirements and other specifications unique to your requirements.  This will also include information on resource management responsibility
+    Following on from your initial brief and our subsequent scoping, we will draw up a high-level end-to-end design, comprising all of the data sources, destinations, components, refresh requirements, process responsibilities and other specifications unique to your requirements. 
     
 === "Setup"
-    At this stage we set up the Google Cloud Platform project, set up access controls and generate the credentials we need to interact with project resources.  The setup here will vary depending on the comfort level you have with managing Google Cloud resources, and the model you want to operate in the future.
+    At this stage we set up the Google Cloud Platform project, set up access controls and generate credentials to interact with project resources.  The setup here will vary depending on the comfort level you have with managing Google Cloud resources, and future operating model.
+
+=== "Build"
+    Development of your data pipelines then takes place, with the GCP project dependant on your desired future operating model, with unit testing of the individual resources and integration testing of the end-to-end operation.  Build is executed on the live architecture and project.
     
 === "Test"
+    Testing is an ongoing feature of our development model, and is not undertaken on a separate environment or separate project.  Continuous testing of individual resources such as functions (unit tests) and end-to-end flows (integration tests) takes place as part of the build process.
+    
 === "Deploy"
+    One of the major benefits of this development model is that once the build is completed, testing and deployment have already taken place onto the desired architecture, meaning that additional effort to deploy is minimal and your data pipelines will be up and running extremely quickly.
+    
 === "Document"
+    We also produce reference documentation for your pipelines, with the format depending on the complexity of the pipelines.  This forms a reference point for exactly what we have built and how it is connected, as well as a 'how-to' guide in terms of operations and troubleshooting. 
+
 === "Train"
+    We can optionally provide training in various aspects of data engineering, analytics, data science and visualisation, with the depth and breadth depending on your precise objectives and the current/desired skills and capabilities of your team.
+    
 === "Monitor"
+    Depending on the operating model, we can either set up the tools, templates and notifications to enable you to self-monitor your data pipelines, or we can leverage our existing in-house tools to monitor your data pipelines on your behalf.
+    
 === "Maintain"
-
-
+    Similarly, depending on the operating model we can take care of all troubleshooting and ongoing maintenance on our in-house architecture, or we can hand over responsibility for ongoing maintenance and troubleshooting to your team.
+    
+## Next Steps
+Hopefully this information has given you a good idea on our approach, scope of capabilities and the way we operate in collaboration with our clients.  If you think you would like to explore partnering with us to help you automate your data then please get in touch with as much information as possible at  [info@beepbeep.technology](mailto:info@beepbeep.technology), so we can review your requirements and send you a link to schedule an initial scoping call.
