@@ -14,7 +14,7 @@ We typically advise option 1 (use a tool with a native connector) as all other o
 Of course, setting up your inbound data automation and fine-tuning your transformation pipelines to build beautiful and bomb-proof data pipelines is a total waste of time unless you actually do something with the data!  The categories of tools which need to be connected to your data in BigQuery are typically:
 
 === "BI Tools"
-    BI (Business Intelligence) tools are a pretty broad category, with a broad range of feature sets, complexity, prices, modernity and hosting options, but fundamentally aligned around translating data into visual representations to help find insights.  We present a few options we have had experience with, none of which is perfect but all have positive reasons to consider them.
+    BI (Business Intelligence) tools are a fairly broad category, with a broad range of feature sets, complexity, prices, modernity and hosting options, but fundamentally aligned around translating data into visual representations to help find insights.  We present a few options we have had experience with, none of which is perfect but all have positive reasons to consider them.
     
     === "Google Data Studio"
         [Google Data Studio](https://datastudio.google.com/) is our go-to BI tool.  It is far from perfect and has its own quirks, but it is completely free, has a rock-solid integration with BigQuery and is improving in functionality at a rapid pace.  It's fully cloud-based, sharing and access control is simple via the usual Google mechanisms, and you can schedule email reports to go out periodically.
