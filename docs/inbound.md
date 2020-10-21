@@ -52,7 +52,7 @@ The first step is determining where your data is and how you are going to get it
         | Ongoing Effort | :material-circle: :material-circle-outline: :material-circle-outline: :material-circle-outline:|
      
         === "Stitch Data"
-            [Stitch Data](https://www.stitchdata.com/) is a simple to set up, reliable and highly recommended option based on the [Singer](https://www.singer.io/) open standard.  It has a generous free tier.
+            [Stitch Data](https://www.stitchdata.com/) is a simple to set up, reliable and highly recommended option based on the [Singer](https://www.singer.io/) open standard.  Unfortunately the previous generaous free tier has now been '[sunsetted](https://www.stitchdata.com/blog/free-plan-sunset/)'.
         
         === "Supermetrics"
             [Supermetrics](https://supermetrics.com/) is a marketing-focused service which can reliably push your data to a number of different places including BigQuery or direct into Google Data Studio. It also integrates natively with the Google Data Transfer Service (new options show up once you are signed up to the service)
