@@ -20,6 +20,10 @@ Of course, setting up your inbound data automation and fine-tuning your transfor
         [Google Data Studio](https://datastudio.google.com/) is our go-to BI tool.  It is far from perfect and has its own quirks, but it is completely free, has a rock-solid integration with BigQuery and is improving in functionality at a rapid pace.  It's fully cloud-based, sharing and access control is simple via the usual Google mechanisms, and you can schedule email reports to go out periodically.
         
         Connection to BigQuery is very simple, robust and outlined [here](https://support.google.com/datastudio/answer/6370296?hl=en).
+    
+    === "Streamlit.io"
+        [Streamlit](https://www.streamlit.io/) is our go-to tool for data exploration, visualisation and web app development.  It is pure-Python, highly interactive and supports some best-in-class python libraries for data visualisation and mapping.  
+    
         
     === "Tableau"
         [Tableau](https://www.tableau.com/) was a trailblazer in this space, but the veteran is - in our opinion at least - looking a little more dinosaur-like in this cloud native world.  It is at its core a very powerful desktop application, with options to publish workbooks and data sources publicly or privately. Licensing model can get expensive, a steep learning curve and complex to quality assure dashboards.
