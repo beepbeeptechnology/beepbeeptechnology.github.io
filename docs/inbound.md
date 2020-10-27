@@ -65,7 +65,9 @@ The first step is determining where your data is and how you are going to get it
  
         === "Data.World"
             [Data.World](https://data.world/) is a little different as it is technically a data catalog, but it has some interesting capabilities regarding inbound data automation and chart building.  
-    
+        
+        === "Meltano"
+            [Meltano](https://meltano.com/) is actually an end-to-end open-source solution for more technically-minded people, developed by GitLab.  It works by managing data transfer using Singer taps/targets, with DBT for data transformation and Apache Airflow for orchestration.
     
     === "Customer Analytics"
         This set of services worth mentioning, as they give you the capability to track user behaviours across your website(s) and/or app(s).  They require some technical knowledge to set up and manage, which is beyond the scope of our core services.  However we are experienced at working with the data which they generate and push directly to BigQuery.
